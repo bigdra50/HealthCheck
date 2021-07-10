@@ -1,8 +1,3 @@
-require('dotenv').config()
-const {OURA_TOKEN} = process.env
-console.log(OURA_TOKEN);
-
-
 const URLJoin = (...args) =>
   args.join('/')
     .replace(/[\/]+/g, '/')
